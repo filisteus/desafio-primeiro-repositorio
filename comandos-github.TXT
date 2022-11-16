@@ -1,0 +1,14 @@
+git config --global user.name "usuário"
+git config --global user.email "user@email"
+
+Create a new repository
+git clone https://github.com/user/repositorio.git
+cd repositorio
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+
+
+git push -u origin --all
+git push -u origin --tags
